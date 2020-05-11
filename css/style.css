@@ -1,0 +1,103 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1, h3, ul {
+    position: static;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.drumContainer {
+    border-radius: 20%;
+    background-image: url('../img/drums2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1050px;
+}
+
+.playing {
+    border: 10px solid yellow;
+    box-shadow: 0 0 10px #ffc600;
+    transform: scale(2);
+    transition: all 0.07s;
+}
+
+#kick {
+    position: relative;
+    top: 55%;
+    left: 60.5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.drums {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#snare {
+    height: 50px;
+    width: 290px;
+    border-radius: 550px / 175px;
+    transform: rotate(-9deg);
+    position: relative;
+    top: 54%;
+    left: 19.8%;
+}
+
+#tom3 {
+    height: 75px;
+    width: 450px;
+    border-radius: 550px / 175px;
+    transform: rotate(-2deg);
+    position: relative;
+    top: 51%;
+    left: 46%;
+}
+
+#hats {
+    height: 17px;
+    width: 150px;
+    border-radius: 550px / 175px;
+    position: relative;
+    top: 26%;
+    left: 12.5%;
+}
+
+#crash {
+    transform: rotate(-3deg);
+    height: 20px;
+    width: 320px;
+    border-radius: 550px / 175px;
+    position: relative;
+    top: 2%;
+    left: 36.5%;
+}
+
+#ride {
+    transform: rotate(-15deg);
+    height: 50px;
+    width: 230px;
+    border-radius: 550px / 175px;
+    position: relative;
+    top: 0%;
+    left: 78.5%;
+}

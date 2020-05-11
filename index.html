@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Javascript Drums!!</h1>
+    <h3>Hit the following keys to play the drums:</h3>
+    <ul>
+        <li>KICK = A ||</li>
+        <li>SNARE = S ||</li>
+        <li>HIHAT = H ||</li>
+        <li>CRASH = K ||</li>
+        <li>TOM = R ||</li>
+        <li>RIDE = I ||</li>
+    </ul>
+    <div class="container">
+        <div class="drumContainer">
+            <div id="kick" class="drums" data-key="65"></div>
+            <div id="snare" class="drums" data-key="83"></div>
+            <div id="hats" class="drums" data-key="72"></div>
+            <div id="crash" class="drums" data-key="75"></div>
+            <div id="tom3" class="drums" data-key="82"></div>
+            <div id="ride" class="drums" data-key="73"></div>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/boom.wav"></audio>
+    <audio data-key="83" src="sounds/snare.wav"></audio>
+    <audio data-key="72" src="sounds/hihat.wav"></audio>
+    <audio data-key="75" src="sounds/tink.wav"></audio>
+    <audio data-key="82" src="sounds/tom.wav"></audio>
+    <audio data-key="73" src="sounds/ride.wav"></audio>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
